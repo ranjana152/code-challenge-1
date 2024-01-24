@@ -12,6 +12,7 @@ In the competitive world of virtual reality gaming, a talented gamer strives to 
 ## Scenario 3
 In the quaint town of Geometria, two friends embark on a treasure hunt with a mysterious map hinting at the angles of an ancient triangular puzzle. As they unveil the first two angles (30 and 60 degrees), they realize they need to decipher the third angle to unlock the treasure's location. Can you assist them in solving the geometric riddle and revealing the missing angle, leading them to the long-lost treasure buried beneath the town square?
 
+## How to Use?
 Alas, for all the money in the world, he can't find a decent programmer to help him with this task. He's designed the front-end of the application and it looks great. He needs **YOU** to help him code functionalities in the back-end though. Go to the `src/app.js` file and complete all the unfinished code to propel this young man's football dream.
 
 ## What should you do?

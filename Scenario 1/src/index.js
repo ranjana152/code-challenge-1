@@ -8,7 +8,22 @@
 
 // Write the function to find the findDigit obtained.
 var findDigit = function(num, nth){
-     //your code here
+  if(nth<=0){
+    return -1;
   }
+  num=Math.abs(num);
+  var num_str=num.toString();
+  var len=num_str.length;
+  var numindex=len-nth;
+  if(nth>len){
+    return 0;
+  } 
+  else{
+    var nthDigit = parseInt(num_str[numindex]);
+  }
+  
+  return nthDigit;
+  }
+  
 
 //Use SpecRunner to check the Test Cases.

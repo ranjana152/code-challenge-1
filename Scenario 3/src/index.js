@@ -8,8 +8,12 @@
 
 // Write the function to find the otherAngle obtained.
 function otherAngle(a, b) {
-       //your code here
-
+      const sumOfInteriorAngles=180;
+      a=Math.abs(a);
+      b=Math.abs(b);
+      var twoAngles=a+b;
+      var thirdAngle=sumOfInteriorAngles-twoAngles;
+      return thirdAngle;
   }
 
 //Use SpecRunner to check the Test Cases.
